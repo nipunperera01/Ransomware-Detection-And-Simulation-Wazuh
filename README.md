@@ -59,8 +59,8 @@ This project demonstrates a realistic ransomware attack simulation using Kali Li
 
 - Alert Type	Description
 - deleted	Original file removed
-- added	.enc file created (fake encryption)
-- modified	Optional if file was edited
+- added	`.enc` file created (fake encryption)
+- modified file was edited
 
 ---
 
