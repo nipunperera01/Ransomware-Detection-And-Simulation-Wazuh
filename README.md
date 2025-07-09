@@ -36,7 +36,7 @@ This project demonstrates a realistic ransomware attack simulation using Kali Li
 
 ### Deployed from Kali via SSH to the Ubuntu server 
 
--(`~fake_ransomware.py`)
+(`fake_ransomware.py`)
 
 ## 📂 This script:
 
@@ -49,8 +49,8 @@ This project demonstrates a realistic ransomware attack simulation using Kali Li
 ## 🛡️ Detection via Wazuh
 
 - Wazuh Agent on the Ubuntu machine detected:
-- File deletions (original .`~.txt`, `~.doc`, `~.csv`)
-- New encrypted files (`~.enc`)
+- File deletions (original .`.txt`, `.doc`, `.csv`)
+- New encrypted files (`.enc`)
 - Alerts logged in real time via Wazuh Dashboard
 
 ---
