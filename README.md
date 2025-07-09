@@ -64,15 +64,15 @@ This project demonstrates a realistic ransomware attack simulation using Kali Li
 
 ## 📸 Screenshots
 
-- ![fake_ransomware py creation]
-- ![sftp by kali linux(attasker)]
-- ![ssh and execute ransomeware script]
-- ![SIEM notifications by FIM]
-- ![activity summary in wazuh]
-- ![detection-deleted files by the attacker]
-- ![detection-modified files by attacker]
-- ![detection-newly added files by attacker]
-- ![check]
+- fake_ransomware py creation.png
+- sftp by kali linux(attasker).png
+- ssh and execute ransomeware script.png
+- SIEM notifications by FIM.png
+- activity summary in wazuh.png
+- detection-deleted files by the attacker.png
+- detection-modified files by attacker.png
+- detection-newly added files by attacker.png
+- check.png
 
 ---
 
