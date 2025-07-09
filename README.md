@@ -34,9 +34,11 @@ This project demonstrates a realistic ransomware attack simulation using Kali Li
 
 ## 🐍 Ransomware Simulation Script
 
-# Deployed from Kali via SSH to the Ubuntu server
+### Deployed from Kali via SSH to the Ubuntu server 
 
-# 📂 This script:
+-(`~fake_ransomware.py`)
+
+## 📂 This script:
 
 - Encodes original files with base64
 - Creates .enc encrypted files
