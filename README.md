@@ -94,6 +94,62 @@ This project demonstrates a realistic ransomware attack simulation using Kali Li
 
 ---
 
+# 🚀 Phase 2 – Recovery & Defensive Measures
+## This phase demonstrates how to respond to a ransomware incident using recovery methods and security hardening techniques.
+
+### 🟢 1. Simulated Recovery Process
+#### ✅ Restored deleted files from a pre-attack backup.
+
+--- 
+
+## 📊 Wazuh FIM detected:
+
+- Removal of .enc files
+- Addition of original `.txt`, `.csv`, `.doc` files
+
+---
+
+### 🔐 2. Defensive Measures Implemented
+
+#### 🛡️ A. Fail2Ban – SSH Brute Force Protection
+
+- Installed on the Ubuntu Server
+- Automatically banned repeated failed SSH login IPs
+- Check active bans:
+    `sudo fail2ban-client status sshd`
+- #### ✅ Confirmed real-time bans with log triggers from `/var/log/auth.log`.
+
+---
+
+## 🔍 Additional Observations
+
+- Feature	Status
+- Wazuh detecting new `.enc` files	
+- Wazuh detects deletion of originals	
+- Recovery from backup	
+- SSH brute-force blocked
+
+---
+
+## 📸 Additional Screenshots (phasse 2)
+
+- ransomware happen log.png
+- recovery command in ubuntu.png
+- after recovery SIEM log.png
+- monitor - .enc file deletion.png
+- monito - backup file recovery log.png
+
+---
+
+## 🧠 Key Takeaways (Phase 2)
+
+- Learned how SIEM can help monitor both attack and response
+- Validated how file recovery works when backups exist
+- Hardened access to reduce attack surface
+- Hands-on experience with real-world detection and mitigation
+
+---
+
 ## 👤 Author
 Nipun Perera
 Network Security Undergraduate – Sri Lanka
